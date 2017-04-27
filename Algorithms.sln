@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "Algorithms\Algorithms.vcxproj", "{96182D44-0D98-45BD-A998-33F8CB0A5384}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E56807A-0B76-4983-A7C3-9770BC83889E} = {8E56807A-0B76-4983-A7C3-9770BC83889E}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sorting", "Sorting\Sorting.vcxproj", "{8E56807A-0B76-4983-A7C3-9770BC83889E}"
 EndProject

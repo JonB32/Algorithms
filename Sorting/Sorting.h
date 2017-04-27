@@ -3,6 +3,7 @@
 #pragma once
 
 #include <vector>
+#define DllExport   __declspec( dllexport )
 
 using namespace std;
 
@@ -93,4 +94,9 @@ namespace Sorting {
 
 		return 0;
 	}
+
+	DllExport void QuickSort(vector<int> &dataStruct);
+	void QuickSort(vector<int> &dataStruct, int low, int high);
+
+	int QuickSortPartition(vector<int> &dataStruct, int low, int high);
 }
