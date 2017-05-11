@@ -97,6 +97,13 @@ namespace Sorting {
 
 	DllExport void QuickSort(vector<int> &dataStruct);
 	void QuickSort(vector<int> &dataStruct, int low, int high);
-
 	int QuickSortPartition(vector<int> &dataStruct, int low, int high);
+
+	DllExport void InsertionSort(vector<int> &dataStruct);
+
+	DllExport void RadixSort(vector<int> &dataStruct);
+	void CountSort(vector<int> &dataStruct, int exp);
+
+	DllExport void SelectionSort(vector<int> &dataStruct);
+
 }
